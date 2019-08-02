@@ -1,4 +1,9 @@
 spring:
+  rabbitmq:
+    host: 192.168.100.131
+    port: 5672
+    username: admin
+    password: admin
   application:
     name: zuul
     
@@ -41,8 +46,3 @@ management:
 zuul:
   sensitive-headers: 
   
-rabbitmq:
-    host: 192.168.100.131
-    port: 5672
-    username: admin
-    password: admin
