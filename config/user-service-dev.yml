@@ -20,3 +20,9 @@ management:
       exposure:
         include: refresh
         
+rabbitmq:
+    host: 192.168.100.131
+    port: 5672
+    username: admin
+    password: admin
+        
